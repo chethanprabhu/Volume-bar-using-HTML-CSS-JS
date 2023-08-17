@@ -1,0 +1,29 @@
+.volume_bar {
+    height: 10px;
+    width: 30px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.barContainer {
+    display: flex;
+    align-items: left;
+    justify-content: baseline;
+    gap: 5px;
+    flex-direction: column-reverse;
+    height: 120px;
+}
+
+.volume_button {
+    width: 30px;
+}
+
+body {
+    min-height: 162px;
+    position: relative;
+}
+
+#decrement {
+    position: absolute;
+    bottom: 0;
+}
